@@ -1,0 +1,143 @@
+/*
+    author: lahiru sampath
+    theme: food order website
+    version: 1.0;
+*/
+
+/* css for header............................................................................................................*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+
+}
+
+.menu{
+    border-bottom: 1px solid grey;
+}
+.menu{
+    text-align: center;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline-grid;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:red;
+}
+.menu ul li a:hover{
+    color: royalblue;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+/* End for haeder */
+
+
+/* css for Body ......................................................................................*/
+
+.content{
+    background-color: lightsteelblue;
+}
+
+.col{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+.tbl-admin{
+    width: 100%;
+    text-align: center;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.btn-add{
+    background-color: rgb(57, 163, 199);
+    padding: 1%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold; 
+}
+.btn-add:hover{
+    background-color: rgb(38, 7, 212);
+    color: white;
+}
+
+.btn-update{
+    background-color: rgb(114, 177, 72);
+    padding: 1%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold; 
+}
+.btn-update:hover{
+    background-color: rgb(46, 85, 10);
+    color: white;
+}
+
+.btn-delete{
+    background-color: red;
+    padding: 1%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold; 
+}
+.btn-delete:hover{
+    background-color: rgb(107, 12, 20);
+    color: white;
+}
+
+.success{
+    color: rgb(22, 165, 46);
+}
+
+.error{
+    color: red;
+}
+
+/* End for Body */
+
+
+/* css for footer.......................................................................................*/
+.footer{
+    background-color: brown;
+    color: white;
+}
+
+.login{
+    width: 20%;
+    border: 1px solid black;
+    margin: 5% auto;
+    padding: 2% 2%;
+}
+
+/* End for footer */
